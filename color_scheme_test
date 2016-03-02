@@ -28,7 +28,7 @@ entity
 invalid.illegal
 invalid.deprecated
 invalid
-selection
+
 keyword.control
 keyword.operator
 keyword.other
