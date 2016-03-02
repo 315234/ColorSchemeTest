@@ -1,0 +1,463 @@
+# [PackageDev] target_format: plist, ext: tmTheme
+colorSpaceName: sRGB
+name: ColorSchemeTest
+semanticClass: theme.light.color_scheme_test
+settings:
+-   settings:
+        background: '#fff'
+        bracketContentsForeground: '#000'
+        bracketContentsOptions: underline
+        bracketsForeground: '#000'
+        bracketsOptions: foreground
+        caret: '#000'
+        findHighlight: '#ddf'
+        foreground: '#000'
+        inactiveSelection: '#eee'
+        invisibles: '#000'
+        lineHighlight: '#eee'
+        selection: '#ddf'
+        tagsOptions: stippled_underline
+
+-   scope: comment.line
+    settings:
+        foreground: '#960e0e'
+        fontStyle: 'italic'
+-   scope: comment.double-slash
+    settings:
+        foreground: '#633131'
+        fontStyle: 'italic'
+-   scope: comment.double-dash
+    settings:
+        foreground: '#826a0c'
+        fontStyle: 'italic'
+-   scope: comment.number-sign
+    settings:
+        foreground: '#4a4224'
+        fontStyle: 'italic'
+-   scope: comment.percentage
+    settings:
+        foreground: '#36780b'
+        fontStyle: 'italic'
+-   scope: comment.character
+    settings:
+        foreground: '#334a24'
+        fontStyle: 'italic'
+-   scope: comment.block
+    settings:
+        foreground: '#074a22'
+        fontStyle: 'italic'
+-   scope: comment.documentation
+    settings:
+        foreground: '#4b544f'
+        fontStyle: 'italic'
+-   scope: comment
+    settings:
+        foreground: '#24424a'
+        fontStyle: 'italic'
+
+        
+-   scope: constant.numeric
+    settings:
+        foreground: '#090963'
+        fontStyle: 'normal'
+-   scope: constant.character
+    settings:
+        foreground: '#868696'
+        fontStyle: 'normal'
+-   scope: constant.escape
+    settings:
+        foreground: '#4d085e'
+        fontStyle: 'normal'
+-   scope: constant.language
+    settings:
+        foreground: '#7a6f7d'
+        fontStyle: 'normal'
+-   scope: constant.other
+    settings:
+        foreground: '#82405a'
+        fontStyle: 'normal'
+-   scope: constant
+    settings:
+        foreground: '#780b0b'
+        fontStyle: 'normal'
+
+        
+-   scope: entity.name
+    settings:
+        foreground: '#4a2424'
+        fontStyle: 'normal'
+-   scope: entity.function
+    settings:
+        foreground: '#635109'
+        fontStyle: 'normal'
+-   scope: entity.type
+    settings:
+        foreground: '#878478'
+        fontStyle: 'normal'
+-   scope: entity.tag
+    settings:
+        foreground: '#2b5e08'
+        fontStyle: 'normal'
+-   scope: entity.section
+    settings:
+        foreground: '#6b7366'
+        fontStyle: 'normal'
+-   scope: entity.other
+    settings:
+        foreground: '#40825a'
+        fontStyle: 'normal'
+-   scope: entity.inherited-class
+    settings:
+        foreground: '#0b6278'
+        fontStyle: 'normal'
+-   scope: entity.attribute-name
+    settings:
+        foreground: '#747f82'
+        fontStyle: 'normal'
+-   scope: entity
+    settings:
+        foreground: '#07074a'
+        fontStyle: 'normal'
+
+        
+-   scope: invalid.illegal
+    settings:
+        foreground: '#666673'
+        fontStyle: 'normal'
+-   scope: invalid.deprecated
+    settings:
+        foreground: '#3c074a'
+        fontStyle: 'normal'
+-   scope: invalid
+    settings:
+        foreground: '#574f59'
+        fontStyle: 'normal'
+
+        
+-   scope: keyword.control
+    settings:
+        foreground: '#633145'
+        fontStyle: 'bold'
+-   scope: keyword.operator
+    settings:
+        foreground: '#5e0808'
+        fontStyle: 'bold'
+-   scope: keyword.other
+    settings:
+        foreground: '#827474'
+        fontStyle: 'bold'
+-   scope: keyword
+    settings:
+        foreground: '#4a3c07'
+        fontStyle: 'bold'
+
+        
+-   scope: markup.underline
+    settings:
+        foreground: '#636159'
+        fontStyle: 'normal'
+-   scope: markup.link
+    settings:
+        foreground: '#224a07'
+        fontStyle: 'normal'
+-   scope: markup.bold
+    settings:
+        foreground: '#0e9644'
+        fontStyle: 'normal'
+-   scope: markup.heading
+    settings:
+        foreground: '#316345'
+        fontStyle: 'normal'
+-   scope: markup.italic
+    settings:
+        foreground: '#084959'
+        fontStyle: 'normal'
+-   scope: markup.list
+    settings:
+        foreground: '#596163'
+        fontStyle: 'normal'
+-   scope: markup.numbered
+    settings:
+        foreground: '#404082'
+        fontStyle: 'normal'
+-   scope: markup.unnumbered
+    settings:
+        foreground: '#42424a'
+        fontStyle: 'normal'
+-   scope: markup.quote
+    settings:
+        foreground: '#754082'
+        fontStyle: 'normal'
+-   scope: markup.raw
+    settings:
+        foreground: '#7d0b39'
+        fontStyle: 'normal'
+-   scope: markup.other
+    settings:
+        foreground: '#4a2433'
+        fontStyle: 'normal'
+-   scope: markup
+    settings:
+        foreground: '#4a0707'
+        fontStyle: 'normal'
+
+        
+-   scope: meta
+    settings:
+        foreground: '#635959'
+        fontStyle: 'normal'
+
+        
+-   scope: storage.type
+    settings:
+        foreground: '#827540'
+        fontStyle: 'normal'
+-   scope: storage.modifier
+    settings:
+        foreground: '#4a4842'
+        fontStyle: 'normal'
+-   scope: storage
+    settings:
+        foreground: '#5a8240'
+        fontStyle: 'normal'
+
+        
+-   scope: string.quoted
+    settings:
+        foreground: '#0b7836'
+        fontStyle: 'normal'
+-   scope: string.single
+    settings:
+        foreground: '#244a33'
+        fontStyle: 'normal'
+-   scope: string.double
+    settings:
+        foreground: '#427987'
+        fontStyle: 'normal'
+-   scope: string.triple
+    settings:
+        foreground: '#42484a'
+        fontStyle: 'normal'
+-   scope: string.other
+    settings:
+        foreground: '#313163'
+        fontStyle: 'normal'
+-   scope: string.unquoted
+    settings:
+        foreground: '#7b0e96'
+        fontStyle: 'normal'
+-   scope: string.interpolated
+    settings:
+        foreground: '#593163'
+        fontStyle: 'normal'
+-   scope: string.regexp
+    settings:
+        foreground: '#63092d'
+        fontStyle: 'normal'
+-   scope: string.other
+    settings:
+        foreground: '#96868d'
+        fontStyle: 'normal'
+-   scope: string
+    settings:
+        foreground: '#824040'
+        fontStyle: 'normal'
+
+        
+-   scope: support.function
+    settings:
+        foreground: '#4a4242'
+        fontStyle: 'normal'
+-   scope: support.class
+    settings:
+        foreground: '#635931'
+        fontStyle: 'normal'
+-   scope: support.type
+    settings:
+        foreground: '#44960e'
+        fontStyle: 'normal'
+-   scope: support.constant
+    settings:
+        foreground: '#456331'
+        fontStyle: 'normal'
+-   scope: support.variable
+    settings:
+        foreground: '#085e2b'
+        fontStyle: 'normal'
+-   scope: support.other
+    settings:
+        foreground: '#7d8c83'
+        fontStyle: 'normal'
+-   scope: support
+    settings:
+        foreground: '#335e69'
+        fontStyle: 'normal'
+
+        
+-   scope: variable.parameter
+    settings:
+        foreground: '#0c0c82'
+        fontStyle: 'normal'
+-   scope: variable.language
+    settings:
+        foreground: '#24244a'
+        fontStyle: 'normal'
+-   scope: variable.other
+    settings:
+        foreground: '#620b78'
+        fontStyle: 'normal'
+-   scope: variable
+    settings:
+        foreground: '#42244a'
+        fontStyle: 'normal'
+
+        
+
+
+
+# -   scope: comment
+#     settings:
+#         foreground: '#777'
+
+
+
+# -   scope: string
+#     settings:
+#         fontStyle: italic
+
+
+#         foreground: '#555'
+# -   scope: constant.numeric
+#     settings:
+#         foreground: '#555'
+# -   scope: constant.language
+#     settings:
+#         foreground: '#0033FF'
+# -   scope: constant.character, constant.other
+#     settings:
+#         foreground: '#0033FF'
+
+# -   scope: variable
+#     settings:
+#         fontStyle: ' bold'
+
+
+#         foreground: '#FF0000'
+# -   scope: variable.parameter
+#     settings:
+#         fontStyle: italic
+#         foreground: '#000000'
+# -   scope: keyword
+#     settings:
+#         fontStyle: ' bold'
+
+
+#         foreground: '#000000'
+# -   scope: storage
+#     settings:
+#         fontStyle: ''
+
+
+#         foreground: '#000000'
+
+# -   scope: entity.name.class
+#     settings:
+#         fontStyle: underline
+#         foreground: '#A6FF00'
+# -   scope: entity.other.inherited-class
+#     settings:
+#         fontStyle: italic underline
+#         foreground: '#A6FF00'
+# -   scope: entity.name.function
+#     settings:
+#         fontStyle: ''
+#         foreground: '#00f'
+# -   scope: entity.name.tag
+#     settings:
+#         fontStyle: ''
+#         foreground: '#d00'
+# -   scope: entity.other.attribute-name
+#     settings:
+#         fontStyle: ''
+#         foreground: '#a00'
+
+# -   scope: support.function
+#     settings:
+#         fontStyle: ''
+#         foreground: '#BA7514'
+# -   scope: support.constant
+#     settings:
+#         fontStyle: ''
+#         foreground: '#BA7514'
+# -   scope: support.type, support.class
+#     settings:
+#         fontStyle: italic
+#         foreground: '#BA7514'
+# -   scope: support.other.variable
+#     settings:
+#         fontStyle: ''
+
+# -   scope: invalid
+#     settings:
+#         background: '#FF0000'
+
+
+#         fontStyle: ' bold'
+#         foreground: '#F8F8F0'
+# -   scope: invalid.deprecated
+#     settings:
+#         background: '#FF0000'
+#         fontStyle: ' bold'
+#         foreground: '#F8F8F0'
+
+
+
+
+# -   scope: meta.structure.dictionary.json string.quoted.double.json
+#     settings:
+#         foreground: '#000'
+
+# -   scope: source.diff, meta.diff
+#     settings:
+#         # background: '#fff'
+#         foreground: '#000'
+# -   scope: meta.diff.header, meta.toc-list.line-number.diff
+#     settings:
+#         foreground: '#00f'
+# # -   scope: meta.diff.range
+# #     settings:
+# #         foreground: '#f90'
+# -   scope: markup.deleted
+#     settings:
+#         # background: '#fff'
+#         foreground: '#f00'
+# -   scope: markup.inserted
+#     settings:
+#         # background: '#fff'
+#         foreground: '#4a0'
+# -   scope: markup.changed
+#     settings:
+#         # background: '#fff'
+#         foreground: '#ff0'
+
+# -   scope: constant.numeric.line-number.find-in-files - match
+#     settings:
+#         foreground: '#999'
+# -   scope: entity.name.filename.find-in-files
+#     settings:
+#         foreground: '#f00'
+
+# -   name: SublimeLinter Error
+#     scope: sublimelinter.mark.error
+#     settings:
+#         foreground: '#D02000'
+# -   name: SublimeLinter Gutter Mark
+#     scope: sublimelinter.gutter-mark
+#     settings:
+#         foreground: '#FFFFFF'
+# -   name: SublimeLinter Warning
+#     scope: sublimelinter.mark.warning
+#     settings:
+#         foreground: '#DDB700'
+
+uuid: D8D5E82E-3D5B-46B5-B38E-8C841C21347E
