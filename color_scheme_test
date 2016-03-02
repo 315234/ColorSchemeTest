@@ -1,28 +1,28 @@
+comment.line.double-slash
+comment.line.double-dash
+comment.line.number-sign
+comment.line.percentage
+comment.line.exclamation-mark
 comment.line
-comment.double-slash
-comment.double-dash
-comment.number-sign
-comment.percentage
-comment.character
+comment.block.documentation
 comment.block
-comment.documentation
 comment
 
 constant.numeric
+constant.character.escape
 constant.character
-constant.escape
 constant.language
 constant.other
 constant
 
+entity.name.function
+entity.name.type
+entity.name.tag
+entity.name.section
 entity.name
-entity.function
-entity.type
-entity.tag
-entity.section
+entity.other.inherited-class
+entity.other.attribute-name
 entity.other
-entity.inherited-class
-entity.attribute-name
 entity
 
 invalid.illegal
@@ -34,14 +34,19 @@ keyword.operator
 keyword.other
 keyword
 
+markup.underline.link
 markup.underline
-markup.link
 markup.bold
+markup.heading.1
+markup.heading.2
+markup.heading.3
+markup.heading.4
+markup.heading.5
 markup.heading
 markup.italic
+markup.list.numbered
+markup.list.unnumbered
 markup.list
-markup.numbered
-markup.unnumbered
 markup.quote
 markup.raw
 markup.other
@@ -53,11 +58,11 @@ storage.type
 storage.modifier
 storage
 
+string.quoted.single
+string.quoted.double
+string.quoted.triple
+string.quoted.other
 string.quoted
-string.single
-string.double
-string.triple
-string.other
 string.unquoted
 string.interpolated
 string.regexp

@@ -9,149 +9,149 @@ scope: source.cst
 
 contexts:
   main:
-    - match: comment\.line
+    - match: comment.line.double-slash
+      scope: comment.line.double-slash
+    - match: comment.line.double-dash
+      scope: comment.line.double-dash
+    - match: comment.line.number-sign
+      scope: comment.line.number-sign
+    - match: comment.line.percentage
+      scope: comment.line.percentage
+    - match: comment.line.exclamation-mark
+      scope: comment.line.exclamation-mark
+    - match: comment.line
       scope: comment.line
-    - match: comment\.double-slash
-      scope: comment.double-slash
-    - match: comment\.double-dash
-      scope: comment.double-dash
-    - match: comment\.number-sign
-      scope: comment.number-sign
-    - match: comment\.percentage
-      scope: comment.percentage
-    - match: comment\.character
-      scope: comment.character
-    - match: comment\.block
+    - match: comment.block.documentation
+      scope: comment.block.documentation
+    - match: comment.block
       scope: comment.block
-    - match: comment\.documentation
-      scope: comment.documentation
     - match: comment
       scope: comment
-
-    - match: constant\.numeric
+    - match: constant.numeric
       scope: constant.numeric
-    - match: constant\.character
+    - match: constant.character.escape
+      scope: constant.character.escape
+    - match: constant.character
       scope: constant.character
-    - match: constant\.escape
-      scope: constant.escape
-    - match: constant\.language
+    - match: constant.language
       scope: constant.language
-    - match: constant\.other
+    - match: constant.other
       scope: constant.other
     - match: constant
       scope: constant
-
-    - match: entity\.name
+    - match: entity.name.function
+      scope: entity.name.function
+    - match: entity.name.type
+      scope: entity.name.type
+    - match: entity.name.tag
+      scope: entity.name.tag
+    - match: entity.name.section
+      scope: entity.name.section
+    - match: entity.name
       scope: entity.name
-    - match: entity\.function
-      scope: entity.function
-    - match: entity\.type
-      scope: entity.type
-    - match: entity\.tag
-      scope: entity.tag
-    - match: entity\.section
-      scope: entity.section
-    - match: entity\.other
+    - match: entity.other.inherited-class
+      scope: entity.other.inherited-class
+    - match: entity.other.attribute-name
+      scope: entity.other.attribute-name
+    - match: entity.other
       scope: entity.other
-    - match: entity\.inherited-class
-      scope: entity.inherited-class
-    - match: entity\.attribute-name
-      scope: entity.attribute-name
     - match: entity
       scope: entity
-
-    - match: invalid\.illegal
+    - match: invalid.illegal
       scope: invalid.illegal
-    - match: invalid\.deprecated
+    - match: invalid.deprecated
       scope: invalid.deprecated
     - match: invalid
       scope: invalid
-
-    - match: keyword\.control
+    - match: keyword.control
       scope: keyword.control
-    - match: keyword\.operator
+    - match: keyword.operator
       scope: keyword.operator
-    - match: keyword\.other
+    - match: keyword.other
       scope: keyword.other
     - match: keyword
       scope: keyword
-
-    - match: markup\.underline
+    - match: markup.underline.link
+      scope: markup.underline.link
+    - match: markup.underline
       scope: markup.underline
-    - match: markup\.link
-      scope: markup.link
-    - match: markup\.bold
+    - match: markup.bold
       scope: markup.bold
-    - match: markup\.heading
+    - match: markup.heading.1
+      scope: markup.heading.1
+    - match: markup.heading.2
+      scope: markup.heading.2
+    - match: markup.heading.3
+      scope: markup.heading.3
+    - match: markup.heading.4
+      scope: markup.heading.4
+    - match: markup.heading.5
+      scope: markup.heading.5
+    - match: markup.heading
       scope: markup.heading
-    - match: markup\.italic
+    - match: markup.italic
       scope: markup.italic
-    - match: markup\.list
+    - match: markup.list.numbered
+      scope: markup.list.numbered
+    - match: markup.list.unnumbered
+      scope: markup.list.unnumbered
+    - match: markup.list
       scope: markup.list
-    - match: markup\.numbered
-      scope: markup.numbered
-    - match: markup\.unnumbered
-      scope: markup.unnumbered
-    - match: markup\.quote
+    - match: markup.quote
       scope: markup.quote
-    - match: markup\.raw
+    - match: markup.raw
       scope: markup.raw
-    - match: markup\.other
+    - match: markup.other
       scope: markup.other
     - match: markup
       scope: markup
-
     - match: meta
       scope: meta
-
-    - match: storage\.type
+    - match: storage.type
       scope: storage.type
-    - match: storage\.modifier
+    - match: storage.modifier
       scope: storage.modifier
     - match: storage
       scope: storage
-
-    - match: string\.quoted
+    - match: string.quoted.single
+      scope: string.quoted.single
+    - match: string.quoted.double
+      scope: string.quoted.double
+    - match: string.quoted.triple
+      scope: string.quoted.triple
+    - match: string.quoted.other
+      scope: string.quoted.other
+    - match: string.quoted
       scope: string.quoted
-    - match: string\.single
-      scope: string.single
-    - match: string\.double
-      scope: string.double
-    - match: string\.triple
-      scope: string.triple
-    - match: string\.other
-      scope: string.other
-    - match: string\.unquoted
+    - match: string.unquoted
       scope: string.unquoted
-    - match: string\.interpolated
+    - match: string.interpolated
       scope: string.interpolated
-    - match: string\.regexp
+    - match: string.regexp
       scope: string.regexp
-    - match: string\.other
+    - match: string.other
       scope: string.other
     - match: string
       scope: string
-
-    - match: support\.function
+    - match: support.function
       scope: support.function
-    - match: support\.class
+    - match: support.class
       scope: support.class
-    - match: support\.type
+    - match: support.type
       scope: support.type
-    - match: support\.constant
+    - match: support.constant
       scope: support.constant
-    - match: support\.variable
+    - match: support.variable
       scope: support.variable
-    - match: support\.other
+    - match: support.other
       scope: support.other
     - match: support
       scope: support
-
-    - match: variable\.parameter
+    - match: variable.parameter
       scope: variable.parameter
-    - match: variable\.language
+    - match: variable.language
       scope: variable.language
-    - match: variable\.other
+    - match: variable.other
       scope: variable.other
     - match: variable
       scope: variable
